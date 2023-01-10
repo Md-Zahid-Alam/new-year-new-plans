@@ -44,3 +44,74 @@
     float: right;
 }
 
+/* Failures Section style */
+
+.failures{
+    display: flex;
+}
+
+.failures-img{
+    width: 500px;
+    height: 650px;
+    margin: 130px 100px 130px 160px;
+}
+
+.failures-title{
+    width: 288px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 369px;
+    margin-bottom: 24px;
+}
+
+.failures-description{
+    width: 416px;
+    height: 104px;
+    font-size: 16px;
+}
+
+.failures-list{
+    width: 355px;
+    height: 162px;
+    font-size: 16px;
+}
+
+div.failures-list p{
+    padding-bottom: 15px;
+}
+
+/* Plans section styles */
+
+.plans-container{
+    display: flex;
+    gap: 100px;
+    margin: 50px 230px 125px 230px;
+}
+
+.plans-header{
+    text-align: center;
+    margin-top: 120px;
+}
+
+div.plans-item img{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.plans-item h3{
+    text-align: center;
+    font-weight: 700;
+    color: #151414;
+    margin-top: 18px;
+}
+
+div.plans-item p{
+    text-align: center;
+    color: #737272;
+    margin-top: 10px;
+}
+
